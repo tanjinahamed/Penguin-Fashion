@@ -49,15 +49,20 @@ p {
   margin: auto;
   margin-left: 100px;
 }
-
-.women-button {
+.buy-now{
+  background-color: #a4bc46;
+  font-size: 700;
+  border-radius: 10px;
+  padding: 14px 14px;
+}
+/* .women-button {
   color: white;
   background-color: #a4bc46;
   padding: 14px 14px;
   text-decoration: none;
   font-size: 700;
   border-radius: 10px;
-}
+}  */
 .price {
   color: #fabe4c;
   font-size: 35px;
@@ -68,6 +73,18 @@ p {
 }
 .women-border {
   border-radius: 14px;
+}
+.jacket-img{
+  height: 400px;
+  
+}
+.jacketimg{
+  height: 350px;
+  width: 200px !important;
+}
+.jacket-img3{
+  width: 90%;
+  
 }
 .women-cloth-border {
   border: 5px red;
@@ -110,7 +127,20 @@ p {
     background-color: #a4bc46;
     padding: 4px 4px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: 5px;
+  }
+}
+
+.footer{
+  display: flex;
+}
+
+@media (max-width:768px){
+  .footer{
+    flex-direction: column;
+  }
+  .cat1,cat2,cat3{
+    width: 100%;
   }
 }
