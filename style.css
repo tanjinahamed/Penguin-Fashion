@@ -49,9 +49,7 @@ p {
   margin: auto;
   margin-left: 100px;
 }
-.top-banner {
-  height: 600px;
-}
+
 .women-button {
   color: white;
   background-color: #a4bc46;
@@ -78,6 +76,26 @@ p {
 .categories h1{
   color: #363958
 }
-.categories img{
-  width: 80px;
+.shop-img{
+  
+  width: 90px;
+}
+.cat1, .cat2, .cat3{
+  padding: 0px 25px;
+  border-radius: 30px;
+}
+.last-img{
+  height: 500px;
+  width: 100%;
+}
+
+@media (min-width: 783px) and (max-width: 1413px) {
+  .women-button {
+    color: white;
+    background-color: #a4bc46;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
 }
