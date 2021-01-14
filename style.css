@@ -55,14 +55,7 @@ p {
   border-radius: 10px;
   padding: 14px 14px;
 }
-/* .women-button {
-  color: white;
-  background-color: #a4bc46;
-  padding: 14px 14px;
-  text-decoration: none;
-  font-size: 700;
-  border-radius: 10px;
-}  */
+
 .price {
   color: #fabe4c;
   font-size: 35px;
@@ -119,7 +112,7 @@ p {
   font-size: 700;
   border-radius: 10px;
 }
-}
+
 
 @media (min-width: 783px) and (max-width: 1413px) {
   .women-button {
@@ -143,4 +136,11 @@ p {
   .cat1,cat2,cat3{
     width: 100%;
   }
+}
+.latest-product{
+  height: 700px;
+  
+}
+.colur{
+  color: #5bc0de;
 }
