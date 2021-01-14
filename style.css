@@ -1,89 +1,83 @@
-.top-background{
-  background-color: #FFFBF0;
+.top-background {
+  background-color: #fffbf0;
 }
 
-  .logo {
-    max-width: 250px;
-    padding: 0 10px;
-    overflow: hidden;
-  }
-  .logo a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 60px;
-  }
-  .logo a img {
-    max-width: 100%;
-    max-height: 60px;
-  }
-  .top-h1{
-    font-size: 70px;
-    color: #FABE4C;
+.logo {
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
 }
-.top-h11{
-    font-size: 70px;
-    color: #363958;
+.logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
 }
-p{
-    color: #3E3E3E;
-    margin-bottom: 50px;
+.logo a img {
+  max-width: 100%;
+  max-height: 60px;
 }
-.link-button{
-    color: white;
-    background-color: #A4BC46;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 700;
-    border-radius: 5px;
-    
+.top-h1 {
+  font-size: 70px;
+  color: #fabe4c;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 2%;
-    padding-left: 1%;
+.top-h11 {
+  font-size: 70px;
+  color: #363958;
 }
-.top-img{
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    margin-left: 100px;
-    
+p {
+  color: #3e3e3e;
+  margin-bottom: 50px;
 }
-.top-banner{
+.link-button {
+  color: white;
+  background-color: #a4bc46;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 700;
+  border-radius: 5px;
+}
+
+.top-img {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-left: 100px;
+}
+.top-banner {
   height: 600px;
 }
-.women-button{
+.women-button {
   color: white;
-  background-color: #A4BC46;
+  background-color: #a4bc46;
   padding: 14px 14px;
   text-decoration: none;
   font-size: 700;
   border-radius: 10px;
-  
 }
-.price{
-  color: #FABE4C;
+.price {
+  color: #fabe4c;
   font-size: 35px;
   font-weight: bold;
 }
-.card-h3{
+.card-h3 {
   color: #363958;
 }
-.women-border{
+.women-border {
   border-radius: 14px;
 }
-.women-cloth-border{
-  
+.women-cloth-border {
   border: 5px red;
   border-radius: 25px;
-
-
 }
-
+.categories h1{
+  color: #363958
+}
+.categories img{
+  width: 80px;
+}
