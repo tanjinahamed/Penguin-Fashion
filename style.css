@@ -7,21 +7,7 @@
   padding: 0 10px;
   overflow: hidden;
 }
-.logo a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 60px;
-}
-.logo a img {
-  max-width: 100%;
-  max-height: 60px;
-}
+
 .top-h1 {
   font-size: 70px;
   color: #fabe4c;
@@ -51,9 +37,10 @@ p {
 }
 .buy-now{
   background-color: #a4bc46;
-  font-size: 700;
+  font-weight: 700;
   border-radius: 10px;
   padding: 14px 14px;
+  font-size: 15px;
 }
 
 .price {
@@ -87,8 +74,8 @@ p {
   color: #363958
 }
 .shop-img{
-  
-  width: 90px;
+  height: 300px;
+  width: 300px;
 }
 .cat1, .cat2, .cat3{
   padding: 0px 25px;
@@ -114,7 +101,7 @@ p {
 }
 
 
-@media (min-width: 783px) and (max-width: 1413px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .women-button {
     color: white;
     background-color: #a4bc46;
